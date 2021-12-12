@@ -43,6 +43,7 @@ BASE_APPS = [
 ]
 
 LOCAL_APPS = [
+    'academico.apps.AcademicoConfig',
 ]
 
 THIRD_APPS = [
@@ -116,7 +117,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'es-pe'
 
-TIME_ZONE = 'America/Botota'
+TIME_ZONE = 'America/Bogota'
 
 USE_I18N = True
 
