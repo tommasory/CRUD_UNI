@@ -13,6 +13,7 @@ def registrarCurso(request):
     codigo = request.POST['txtCodigo']
     nombre = request.POST['txtNombre']
     creditos = request.POST['numCreditos']
+    print(request.POST['txtTemporalidad'])
 
     curso = Curso.objects.create(
         codigo=codigo, nombre=nombre, creditos=creditos)
